@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="addStudent.jsp" method="post">
+            <label>Name</label>
+            <input type="text" name="name"><br><br>
+             <label>Email</label>
+            <input type="email" name="email"><br><br>
+             <label>Age</label>
+             <input type="text" name="age"><br><br>
+             
+             <label>Subject</label>
+             <select name="subject">
+                 <option>--SELECT--</option>
+                 <option name="bangla">Bangla</option>
+                 <option name="math">Math</option>
+                 <option name="english">English</option>
+                 <option name="swedish">Swedish</option>
+             </select><br><br>
+             <label>Gender</label>
+             <input type="radio" name="gender">Male
+             <input type="radio" name="gender">Female
+             <input type="radio" name="gender">Others
+             <br><br> 
+            
+             <input type="submit" value="Sign Up">
+            
+        </form><br>
+        
+        <a href="stViewAll.jsp">View All</a>
+        
+        
+    </body>
+</html>
